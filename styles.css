@@ -1,0 +1,32 @@
+*{
+    overflow: hidden;
+}
+
+body {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+    overflow: hidden;
+}
+
+.ball {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+.bar {
+    position: absolute;
+    left: 0px;
+    bottom: 30px;
+    height: 10px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: white;
+}
